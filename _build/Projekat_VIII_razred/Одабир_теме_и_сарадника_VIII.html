@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Одабир теме и сарадника &#8212; Petlja - kursProjektniZadatak_VIII</title>
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Рад на пројекту" href="Рад_на_пројекту_VIII.html" />
+    <link rel="prev" title="Пројектна настава" href="О_пројекту_VIII.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+<script type="text/javascript" src="/_static/petja.js"></script>
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host + '/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+  eBookConfig.course = 'kursProjektniZadatak_VIII';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = true;
+  eBookConfig.basecourse = 'kursProjektniZadatak_VIII';
+  eBookConfig.runestone_version = '';
+  eBookConfig.imagesDir = '../_images/';
+  eBookConfig.staticDir = '../_static/';
+  if (typeof (Sk) != "undefined")
+    Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <a href="https://petlja.org"><img src="../_static/img/petlja-logo-wt.svg"
+      style="width:80px; float: left;"> </a>
+  <a href="https://petlja.org/net.kabinet"><img src="../_static/img/netkabinet-logo-strelica-wt.svg"
+      style="width: 30px; margin-left: 15px; float: left;"> </a>
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+      style="margin-left: 25px; text-align: center;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a
+            href="../">Petlja - kursProjektniZadatak_VIII</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="margin-top: 65px;font-size: 20px; width: 20%; float: left; height: calc(100vh - 115px);">
+  
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><ul>
+    
+    <div class="lecture-div" id=lecture-Projekat_VIII_razred>
+        <i class="fas fa-caret-right caret-position" ></i>
+        <i class="fas fa-caret-down caret-position d-none"></i>
+        <h5>Истраживачки пројекат за осми разред</h5>
+    </div>
+    
+    <div class="d-none" >
+        
+        <a href=/Projekat_VIII_razred/О_пројекту_VIII.html>
+            <div class="activity-div" id=activity-О_пројекту_VIII>
+                
+                
+                <i class="fas fa-file-alt activity-icon"></i>
+                
+                Увод
+            </div>
+        </a>
+        
+        <a href=/Projekat_VIII_razred/Одабир_теме_и_сарадника_VIII.html>
+            <div class="activity-div" id=activity-Одабир_теме_и_сарадника_VIII>
+                
+                
+                <i class="fas fa-file-alt activity-icon"></i>
+                
+                Одабир теме и сарадника
+            </div>
+        </a>
+        
+        <a href=/Projekat_VIII_razred/Рад_на_пројекту_VIII.html>
+            <div class="activity-div" id=activity-Рад_на_пројекту_VIII>
+                
+                
+                <i class="fas fa-file-alt activity-icon"></i>
+                
+                Рад на пројекту
+            </div>
+        </a>
+        
+        <a href=/Projekat_VIII_razred/Представљање_пројекта_VIII.html>
+            <div class="activity-div" id=activity-Представљање_пројекта_VIII>
+                
+                
+                <i class="fas fa-file-alt activity-icon"></i>
+                
+                Представљање пројекта
+            </div>
+        </a>
+        
+        
+    </diV>
+    
+</ul>
+        </div>
+      </div>
+
+</div>
+
+<div class="container col-md-12" id="continue-reading"></div>
+<div class="container" id="main-content" style="float: left;  padding-left: 20px; height: calc(100vh - 115px);">
+
+
+  
+  <div class="section" id="id1">
+<h1>Одабир теме и сарадника<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>Да би стечена знања о табеларном представљању података и табеларним прорачунима над њима, којима смо се бавили у области ИКТ-а, као и знања о отвореним подацима, о којима смо говорили у области дигиталне писмености, била практично примењена, у оквиру наредних лекција радићеш на истраживачком пројекту заједно са својим друговима из одељења.
+У оквиру овог пројекта потребно је да препознаш реалне животне ситуације у којима межеш да примениш усвојена знања и стечене вештине из претходних лекција. Током рада на истраживачком пројекту можеш да користиш интернет, али потражи и додатне информације из различитих уџбеника и књига из библиотеке.</p>
+<p>Пројекат је сложена активност која садржи више фаза и траје одређено време. Пре почетка рада на самом пројекту, потребно је размотрити следеће:</p>
+<ul class="simple">
+<li><p>Идеја - шта ће бити истраживачки задатак на коме ћете радити,</p></li>
+<li><p>Партнери - ко ће бити сарадници на пројекту са којима ћеш радити у тиму,</p></li>
+<li><p>План тема - одредити задатке на којима ћете радити и шта ће бити тема пројекта,</p></li>
+<li><p>План активности - дефинисати активности и одредити начин на који ћете радити,</p></li>
+<li><p>План реализације - одредити временску динамику када ћете које од активности реализовати,</p></li>
+<li><p>План програма и алата - одредити које ћете програме и алате користити за рад на пројекту,</p></li>
+<li><p>Резултати - одредити шта ће бити продукти које ћете приказати на крају пројекта.</p></li>
+</ul>
+<p>На овом часу ћеш радити следеће:</p>
+<ul class="simple">
+<li><p>размисли о предложеним темама и одабери ону која ти је најинтересантнија и коју ћеш кроз пројектне активности обрађивати на наредна два школска часа.</p></li>
+<li><p>пронађи сараднике – другове и другарице који су заинтересовани за исту ту тему и формирајте тим у оквиру кога ћете радити заједно на реализацији пројектних активности и бити сарадници на пројекту.</p></li>
+<li><p>дефинишите заједно истраживачки задатак којим ћете се бавити у оквиру одабране теме пројекта, односно начине како ћете да спроведете истраживање (теоријски или експериментима) и које ресурсе ћете користити.</p></li>
+</ul>
+<p>Теме које предлажемо, а које повезују Инфоматику и рачунарство са другим наставним предметима, али представљају и теме из свакодневног живота су:</p>
+<ol class="arabic simple">
+<li><p>Квалитет ваздуха (проналажење и преузимање скупа података са Портала отворених података о загађености ваздуха, анализа у програму за табеларне прорачуне и графички приказ података, доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Анализа саобраћајних несрећа (проналажење и преузимање скупа података са Портала отворених података о саобраћајним незгодама по полицијским управама и општинама, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Статистика о пандемији COVID-19 (проналажење и преузимање скупа података са релевантних извора о пандемији вируса COVID-19, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Трговина путем интернета (проналажење и преузимање скупа података са Портала отворених података, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Страни језици (проналажење и преузимање података са Портала отворених података о броју ученика који уче одређене стране језике, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Завршни испит (проналажење и преузимање статистичких података о завршном испиту у претходној школској години за вашу школу и школе са територије ваше општине или округа, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Перспективна занимања  (проналажење и преузимање статистичких података о занимањима која нестају, о занимањима којима је тржиште презасићено и о дефицитарним занимањима, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+<li><p>Квалитет вода (проналажење и преузимање скупа података са Портала отворених података о квалитету вода, анализа у програму за табеларне прорачуне и графички приказ података и доношење закључака, израда паноа и мултимедијалне презентације)</p></li>
+</ol>
+<p>Најлакши начин да одабереш тему јесте да за сваку од предложених тема излисташ што више разлога због којих ти је интересантна и зашто ти се допада. Користи папирне стикере да запишеш своје идеје. Размисли и сваку идеју постави на посебан стикер. У случају да не постоји начин да уживо одаберете тему, наставник или наставница може направити виртуелну таблу у неком од веб алата Лино (<a class="reference external" href="https://en.linoit.com/">https://en.linoit.com/</a>) или Падлет (<a class="reference external" href="https://padlet.com/">https://padlet.com/</a>) на којој ћете постављати виртуелне стикере.</p>
+<p>На основу идеја које су написане на стикерима можеш лако да одабереш сараднике који ти највише одговарају за тему коју желиш да обрађујеш у пројекту.</p>
+<p>Формирајте тим од 3 до 5 чланова. Када сте формирали тим потребно је да се у оквиру тима договорите око начина како ћете да спроведете истраживање и које ресурсе (интернет, библиотека, програми за обраду текста и рад са сликама,..) ћете користити током вашег заједничког истраживања и рада на пројекту.</p>
+<p>Да бисмо ти лакше објаснили кораке који следе у креирању пројекта одабраћемо тему <strong>Квалитет ваздуха</strong>.</p>
+<p><strong>Тема пројекта:</strong> Квалитет ваздуха</p>
+<p><strong>Опис истраживачког задатка:</strong> Да ли је и колико ваздух у градовима Србије загађен, анализа узрока и фактора који доприносе загађењу и какве последице загађење ваздуха има на људско здравље и како утиче на биљни и животињски свет. Пронаћи и преузети скупа података са Портала отворених података о загађаности ваздуха, анализирати их у програму за табеларне прорачуне и графички приказати податаке и извести закључак.
+Коришћењем програма за табеларне прорачуне, као и програма за израду мултимедијалних презентација, креирати презентацију која ће бити постављена на школски сајт. Израдити паное који ће илустровати проблем загађености ваздуха, узроке и последице и изложити га у холу школе.</p>
+<p><strong>Циљ пројекта:</strong> Развити свест о утицају и последицама прекомерног и дуготрајног загађења ваздуха здравље људи, као и биљног и животињског света, идентификовати које су најчешће здравствене тегобе које настају, које превентивне мере применити и како се заштитити.</p>
+</div>
+
+
+
+</div>
+
+<div style="position: relative;">
+  
+  <div class="col-md-12 lecture-switcher">
+    <div class="petljadoc-resources">
+            <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+    </div>
+<ul class="pager">
+    <a href="О_пројекту_VIII.html" id="prevLectureLink"><div id="prevLecture" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i></div></a>
+    
+       <a href="#" id="nextLectureLink"><div id="nextLecture" class="lecture-toggler-arrows lecture-toggler-arrows-next"> <i class="fas fa-arrow-right fa"></i></div></a>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Пројектна настава' data-toggle="tooltip"><a href="О_пројекту_VIII.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Рад на пројекту' data-toggle="tooltip"><a href="Рад_на_пројекту_VIII.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>

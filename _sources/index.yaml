@@ -1,44 +1,48 @@
-courseId: courseID 
-lang: en
-title: Petljadoc Course
+courseId: Istrazivacki_projekat_za_VIII_razred
+lang: sr-Cyrl
+title: Истраживачки пројекат
 description:
-  willLearn: 
-    - Preview of Petljadoc course
-  requirements:
-    - Petljadoc
-    - Runestone
-    - Sphinx
-  toc:
-    - Intro to Petljadoc INDEX.yaml
-  externalLinks:  
-    - text: Sphinx Docs
-      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-    - text: Petljadoc
-      href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
-    - text: Runestone Interactive
-      href: https://github.com/RunestoneInteractive/overview
   longDescription: |
-    This is an example of a long description...
-  shortDescription: Shrot description
+    Материјал намењен за три школска часа се састоји од лекција којима се ученицима скреће пажња на 
+    најбитније делове из садржаја лекције.
+    
+    Поред рада у школи, курс се може пролазити и самостално.
+  willLearn: 
+    - научићеш као да одабереш тему за пројекат;
+    - научићеш како да радиш у тиму;
+  requirements:
+    - Рачунар
+    - Интернет
+  
+  toc:
+    - Током наредна три часа, радићете истраживачки пројекат који ће повезати све оно што сте до сада радили са другим школским предметима. Као изворе информација користићете интернет, али и уџбенике. 
+
+  shortDescription: a
 
 
 lessons:
-  - title: Lesson 1
-    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
-    description: Your first lesson. Description is not required attribute
-    folder: 1_Lesson
+  - title: Истраживачки пројекат за осми разред
+    guid: 43afbf54-4a34-4db9-b0a1-8b05308de229
+    description: Пројекат за осми разред
+    folder: Projekat_VIII_razred
     activities:
       - type: reading
-        title: Intro
-        file: intro.rst 
+        title: Увод
+        file: О_пројекту_VIII.rst 
         description: #Optional
-        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
-      - type: video
-        title: Video activity for your lesson
-        decription: Nice video
-        url: https://www.youtube.com/watch?v=2KYuzJKemXw
-        guid: 978760d0-a133-4ffd-af30-85fdb38aa384
-      - type: quiz
-        title: Test your students
-        file: quiz.rst
-        guid: dd96bf63-e558-4540-95a6-00b96e45e3ef
+        guid: 4dc9f5a4-2905-445f-bf2d-f029b79f7adc
+      - type: reading
+        title: Одабир теме и сарадника
+        file: Одабир_теме_и_сарадника_VIII.rst 
+        description: #Optional
+        guid: 36ae3e16-dd5f-4351-a416-89109bd9205e
+      - type: reading
+        title: Рад на пројекту
+        file: Рад_на_пројекту_VIII.rst 
+        description: #Optional
+        guid: 9d53a9b5-6198-46af-bb0e-854cbaf7ff89
+      - type: reading
+        title: Представљање пројекта
+        file: Представљање_пројекта_VIII.rst 
+        description: #Optional
+        guid: 5766cfad-9117-437e-b63e-459a23a2ca04    
