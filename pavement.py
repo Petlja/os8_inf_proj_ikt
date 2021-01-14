@@ -19,13 +19,12 @@ dest = "../../static"
 
 options(
     sphinx = Bunch(docroot=".",),
-
     build = Bunch(
         builddir="./_build",
-        sourcedir="_intermediate",
+        sourcedir="_sources",
         outdir="./_build",
         confdir=".",
-        project_name = "kursProjektniZadatak_VIII",
+        project_name = "VIII",
 
         # leave template_args empty, use html_context from conf.py
         template_args= {}

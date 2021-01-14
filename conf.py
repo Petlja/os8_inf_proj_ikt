@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Petlja - kursProjektniZadatak_VIII'
+project = 'Приручник за 8. разред за пројетни задатак - дигитална писменост '
 #pylint: disable=redefined-builtin
-copyright = '2020 milena'
+copyright = '2021 milena'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -112,8 +112,7 @@ rst_prolog = (
 
 # -- Options for HTML output ---------------------------------------------------
 
-
-html_context = {'course_id': 'kursProjektniZadatak_VIII',
+html_context = {'course_id': 'VIII',
                 'login_required':'false',
                 'appname': "runestone",
                 'loglevel': int("0"),
@@ -122,18 +121,17 @@ html_context = {'course_id': 'kursProjektniZadatak_VIII',
                 'python3': 'true',
                 'dburl': os.environ['DBURL'] if 'DBURL' in os.environ else '',
                 'default_ac_lang': 'python',
-                'basecourse': 'kursProjektniZadatak_VIII',
+                'basecourse': 'VIII',
                 'jobe_server': 'http://jobe2.cosc.canterbury.ac.nz',
                 'proxy_uri_runs': '/jobe/index.php/restapi/runs/',
                 'proxy_uri_files': '/jobe/index.php/restapi/files/',
                 'downloads_enabled': 'false',
-                'enable_chatcodes': 'false',
-                'course':petljadoc.cli.read_course()
+                'enable_chatcodes': 'false'
                }
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'petljadoc_course_theme'
+html_theme = 'petljadoc_runestone_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -141,7 +139,7 @@ html_theme = 'petljadoc_course_theme'
 #html_theme_options = {'nosidebar': 'true'}
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Petlja - kursProjektniZadatak_VIII",
+    'navbar_title': "Приручник за 8. разред за пројектни задатак - дигитална писменост",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Chapters",
@@ -157,7 +155,7 @@ html_theme_options = {
     # will break.
     #
     # Values: "true" (default) or "false"
-    'globaltoc_includehidden': "false",
+    'globaltoc_includehidden': "true",
 
     # HTML navbar class (Default: "navbar") to attach to <div> element.
     # For black navbar, do "navbar navbar-inverse"
@@ -165,7 +163,7 @@ html_theme_options = {
 
     # Fix navigation bar to top of page?
     # Values: "true" (default) or "false"
-    'navbar_fixed_top': "false",
+    'navbar_fixed_top': "true",
 
     # Location of link to source.
     # Options are "nav" (default), "footer" or anything else to exclude.
@@ -187,10 +185,10 @@ html_theme_path = ["_templates/plugin_layouts"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Petlja - kursProjektniZadatak_VIII'
+html_title = 'Petlja - VIII'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title ='Petlja - kursProjektniZadatak_VIII'
+html_short_title ='Petlja - VIII'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -218,9 +216,7 @@ html_static_path = ['_static']  + runestone_static_dirs() + petljadoc.runestone_
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-html_sidebars = {
-    '**': ['globaltoc.html']
-}
+#html_sidebars = {}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -253,7 +249,7 @@ html_show_sourcelink = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'kursProjektniZadatak_VIII-doc'
+htmlhelp_basename = 'VIII-doc'
 
 # 'accessibility_style' config value is defined in the 'accessibility' extension. 
 # By this config value you can select what accessibility stylesheet
