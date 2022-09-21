@@ -287,8 +287,6 @@ class DbDirectives {
 
 
 window.addEventListener('load',function(){
-    if (typeof languagePluginLoader === 'undefined')
-        return 
     languagePluginLoader.then(() => 
     pyodide.runPythonAsync(`
         import js
